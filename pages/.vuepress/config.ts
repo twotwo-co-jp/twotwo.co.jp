@@ -10,7 +10,7 @@ export default defineUserConfig({
         },
         // '/en': {
         //     lang: 'en',
-        //     title: 'TWOTWO co.,Ltd.',
+        //     title: 'TWOTWO Inc.',
         //     description: 'The homepage of TWOTWO co,.Ltd.',
         // },
         // '/cn': {
