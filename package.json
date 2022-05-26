@@ -1,0 +1,19 @@
+{
+  "name": "twotwo.co.jp",
+  "version": "1.0.0",
+  "description": "the home of TWOTWO co.,Ltd.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev pages",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twotwo.co.jp",
+    "twotwo"
+  ],
+  "author": "TWOTWO co.,Ltd.",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "2.0.0-beta.46"
+  }
+}
