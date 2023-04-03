@@ -4,8 +4,8 @@
   "description": "The home of TWOTWO co.,Ltd.",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev pages",
-    "build": "vuepress build pages",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
