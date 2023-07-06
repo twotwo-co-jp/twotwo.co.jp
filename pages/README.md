@@ -15,6 +15,6 @@ features:
     details: より良いサービスをより安く提供するのは我々の使命であり、品質の良いサービスを安価で提供するように日々努力しています。
   - title: パフォーマンス
     details: ムダ、ムリ、ムラをなくして、必要最低限の機能に集中して80％の力を120％のPowerにする。
-footer: "&copy; 2022 TWOTWO co.,Ltd."
+footer: "&copy; 2020 TWOTWO co.,Ltd."
 footerHtml: true
 ---

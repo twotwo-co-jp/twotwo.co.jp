@@ -15,6 +15,6 @@ features:
     details: Providing better services at a lower cost is our mission, and we strive every day to offer high-quality services at affordable prices.
   - title: Performance
     details: Eliminate waste, overburden, and unevenness, and focus on the essential minimum functions to turn 80% of the effort into 120% of the power.
-footer: "&copy; 2022 TWOTWO co.,Ltd."
+footer: "&copy; 2020 TWOTWO co.,Ltd."
 footerHtml: true
 ---

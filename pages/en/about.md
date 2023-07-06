@@ -12,5 +12,5 @@ pageClass: table-center
 |-------------: |:-------------|
 |Founded  | 2020/01/31 |
 |Capital| ¥1,000,000      |
-|Address| 〒171-0021 7F, Hirai Building, 3-23-8 Nishi-Ikebukuro, Toshima-ku, Tokyo     |
+|Address| 〒116-0013 302, Tsukahara Building, 2-26-6 Nishi-Nippori, Aragawa-ku, Tokyo     |
 |Contact|twotwo.co.jp@gmail.com| 
