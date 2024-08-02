@@ -7,6 +7,6 @@ heroText: Contact
 tagline: null
 ---
 
-## Please contact us via email.
+# Please contact us via email.
 
-twotwo.co.jp@gmail.com
+<contact@twotwo.co.jp>

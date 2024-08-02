@@ -7,6 +7,6 @@ heroText: 問い合わせ
 tagline: null
 ---
 
-## メールで連絡してください
+# メールで連絡してください
 
-twotwo.co.jp@gmail.com
+<contact@twotwo.co.jp>

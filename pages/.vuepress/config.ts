@@ -1,6 +1,9 @@
-import { defineUserConfig, defaultTheme } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite';
+import { defineUserConfig } from 'vuepress';
+import { defaultTheme } from '@vuepress/theme-default'
 
 export default defineUserConfig({
+    bundler: viteBundler(),
     locales: {
         '/': {
             lang: 'ja',
@@ -8,7 +11,7 @@ export default defineUserConfig({
             description: '株式会社TWOTWOのホームページです。'
         },
 
-        '/en': {
+        '/en/': {
             lang: 'en',
             title: 'TWOTWO co.,Ltd.'
         }
@@ -29,7 +32,7 @@ export default defineUserConfig({
                 ]
             },
 
-            '/en': {
+            '/en/': {
                 selectLanguageText: 'Languages',
                 selectLanguageAriaLabel: 'Languages',
                 selectLanguageName: 'English',
