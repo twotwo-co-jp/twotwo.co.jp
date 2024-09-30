@@ -13,4 +13,4 @@ pageClass: table-center
 |設立日  | 令和2年1月31日 |
 |資本金| 100万円      |
 |所在地| 〒116-0013 東京都荒川区西日暮里2丁目26番地6号　ツカハラビル302号室     |
-|問い合わせ|twotwo.co.jp@gmail.com| 
+|問い合わせ|contact@twotwo.co.jp| 

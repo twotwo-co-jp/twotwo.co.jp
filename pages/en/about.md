@@ -13,4 +13,4 @@ pageClass: table-center
 |Founded  | 2020/01/31 |
 |Capital| ¥1,000,000      |
 |Address| 〒116-0013 302, Tsukahara Building, 2-26-6 Nishi-Nippori, Aragawa-ku, Tokyo     |
-|Contact|twotwo.co.jp@gmail.com| 
+|Contact|contact@twotwo.co.jp| 
