@@ -44,7 +44,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={`${notoSansJP.variable} ${notoSansSC.variable} antialiased flex flex-col min-h-screen bg-background text-foreground scrollbar-gutter-stable overflow-y-scroll`}
+        className={`${notoSansJP.variable} ${notoSansSC.variable} antialiased flex flex-col min-h-[100dvh] bg-background text-foreground scrollbar-gutter-stable overflow-y-scroll`}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <header className="flex items-center h-16 px-8">
