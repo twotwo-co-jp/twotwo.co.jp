@@ -24,12 +24,23 @@ export default function SideNav() {
 
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
-      <SheetTrigger asChild className="md:hidden">
-        <Button variant="outline" size="icon">
+      <SheetTrigger asChild>
+        <Button 
+          variant="outline" 
+          size="icon" 
+          className="md:hidden"
+          aria-label={t('menu')}
+          aria-expanded={isOpen}
+          aria-controls="side-navigation"
+        >
           {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </Button>
       </SheetTrigger>
-      <SheetContent side="left">
+      <SheetContent 
+        side="left" 
+        id="side-navigation" 
+        aria-label={t('menu')}
+      >
         <SheetHeader>
           <SheetTitle>{t('menu')}</SheetTitle>
         </SheetHeader>
