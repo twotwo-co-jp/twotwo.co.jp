@@ -47,7 +47,7 @@ export default async function RootLayout({
         className={`${notoSansJP.variable} ${notoSansSC.variable} antialiased flex flex-col min-h-[100dvh] bg-background text-foreground scrollbar-gutter-stable overflow-y-scroll`}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <header className="flex items-center h-16 px-8">
+          <header className="flex items-center h-16 px-2">
             <SideNav />
             <Link href="/" className="flex items-center gap-2">
               <Image
