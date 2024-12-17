@@ -55,7 +55,7 @@ export default async function RootLayout({
                 alt="logo"
                 width={32}
               />
-              <div className="hidden md:block font-bold text-lg">株式会社TWOTWO</div>
+              <div className="font-bold text-lg">株式会社TWOTWO</div>
             </Link>
             <div className="flex-1 flex justify-end gap-4">
               <Navigation />
