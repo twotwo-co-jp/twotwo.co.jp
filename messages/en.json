@@ -1,0 +1,77 @@
+{
+    "i18n": {
+        "selectLanguage": "Select language"
+        
+    },
+    "navigation": {
+        "menu": "Menu",
+        "about": "About",
+        "services": "Services",
+        "contact": "Contact"
+    },
+    "home": {
+        "slogan1": "Revitalize Japan!",
+        "slogan2": "And Change the World!"
+    },
+    "about": {
+        "companyInfo": {
+            "title": "Company Information",
+            "name": {
+                "label": "Company Name",
+                "value": "TWOTWO Co., Ltd."
+            },
+            "founded": {
+                "label": "Founded",
+                "value": "2020-01-31"
+            },
+            "location": {
+                "label": "Location",
+                "value": {
+                    "postal": "116-0013",
+                    "address": "302 Tsukahara Building, 2-26-6 Nishi-Nippori, Arakawa-ku, Tokyo"
+                }
+            },
+            "business": {
+                "label": "Business",
+                "value": "System Development, Technical Consulting, IT Solutions"
+            },
+            "access": {
+                "label": "Access",
+                "value": "2-minute walk from JR Nippori Station"
+            }
+        }
+    },
+    "services": {
+        "title": "Our Services",
+        "development": {
+            "title": "System Development",
+            "description": "We provide high-quality system development services utilizing the latest technologies.",
+            "items": {
+                "web": "Web Application Development",
+                "mobile": "Mobile Application Development",
+                "desktop": "Desktop Application Development"
+            }
+        },
+        "consulting": {
+            "title": "Technical Consulting",
+            "description": "We propose optimal technical solutions for your business needs.",
+            "items": {
+                "architecture": "System Architecture Design",
+                "optimization": "Performance Optimization",
+                "security": "Security Solutions"
+            }
+        },
+        "solutions": {
+            "title": "IT Solutions",
+            "description": "We provide comprehensive IT solutions to solve your business challenges.",
+            "items": {
+                "cloud": "Cloud Solutions",
+                "ai": "AI & Machine Learning Solutions",
+                "data": "Data Analytics & Utilization Solutions"
+            }
+        }
+    },
+    "contact": {
+        "title": "Contact Us"
+    }
+}

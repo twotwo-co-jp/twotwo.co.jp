@@ -1,0 +1,77 @@
+{
+    "i18n": {
+        "selectLanguage": "选择语言"
+        
+    },
+    "navigation": {
+        "menu": "导航",
+        "about": "关于我们",
+        "services": "服务",
+        "contact": "联系我们"
+    },
+    "home": {
+        "slogan1": "让日本更有活力！",
+        "slogan2": "让世界变得更美好！"
+    },
+    "about": {
+        "companyInfo": {
+            "title": "公司概要",
+            "name": {
+                "label": "公司名称",
+                "value": "株式会社TWOTWO"
+            },
+            "founded": {
+                "label": "成立时间",
+                "value": "2020年1月31日"
+            },
+            "location": {
+                "label": "公司地址",
+                "value": {
+                    "postal": "116-0013",
+                    "address": "东京都荒川区西日暮里2丁目26番地6号 塚原大厦302室"
+                }
+            },
+            "business": {
+                "label": "主营业务",
+                "value": "系统开发、技术咨询、IT解决方案"
+            },
+            "access": {
+                "label": "交通路线",
+                "value": "JR日暮里站从徒步2分钟"
+            }
+        }
+    },
+    "services": {
+        "title": "我们的服务",
+        "development": {
+            "title": "系统开发",
+            "description": "我们利用最新技术提供高质量的系统开发服务。",
+            "items": {
+                "web": "网站应用开发",
+                "mobile": "移动应用开发",
+                "desktop": "桌面应用开发"
+            }
+        },
+        "consulting": {
+            "title": "技术咨询",
+            "description": "为您的业务提供最佳的技术解决方案。",
+            "items": {
+                "architecture": "系统架构设计",
+                "optimization": "性能优化",
+                "security": "安全解决方案"
+            }
+        },
+        "solutions": {
+            "title": "IT解决方案",
+            "description": "提供全面的IT解决方案，帮助解决您的业务挑战。",
+            "items": {
+                "cloud": "云解决方案",
+                "ai": "人工智能与机器学习解决方案",
+                "data": "数据分析与应用解决方案"
+            }
+        }
+    },
+    "contact": {
+        "title": "联系我们"
+    }
+}

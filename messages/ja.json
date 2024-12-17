@@ -1,0 +1,76 @@
+{
+    "i18n": {
+        "selectLanguage": "言語選択"
+    },
+    "navigation": {
+        "menu": "メニュー",
+        "about": "企業情報",
+        "services": "サービス",
+        "contact": "お問い合わせ"
+    },
+    "home": {
+        "slogan1": "日本を元気に！",
+        "slogan2": "そして世界を変えていく！"
+    },
+    "about": {
+        "companyInfo": {
+            "title": "会社概要",
+            "name": {
+                "label": "会社名",
+                "value": "株式会社TWOTWO"
+            },
+            "founded": {
+                "label": "設立年月日",
+                "value": "2020年1月31日"
+            },
+            "location": {
+                "label": "所在地",
+                "value": {
+                    "postal": "116-0013",
+                    "address": "東京都荒川区西日暮里2丁目26番地6号　ツカハラビル302号室"
+                }
+            },
+            "business": {
+                "label": "事業内容",
+                "value": "システム開発、技術コンサルティング、ITソリューション"
+            },
+            "access": {
+                "label": "アクセス",
+                "value": "JR日暮里駅から徒歩2分"
+            }
+        }
+    },
+    "services": {
+        "title": "サービス",
+        "development": {
+            "title": "システム開発",
+            "description": "最新のテクノロジーを活用した高品質なシステム開発サービスを提供します。",
+            "items": {
+                "web": "Webアプリケーション開発",
+                "mobile": "モバイルアプリケーション開発",
+                "desktop": "デスクトップアプリケーション開発"
+            }
+        },
+        "consulting": {
+            "title": "技術コンサルティング",
+            "description": "お客様のビジネスに最適な技術ソリューションを提案します。",
+            "items": {
+                "architecture": "システムアーキテクチャ設計",
+                "optimization": "パフォーマンス最適化",
+                "security": "セキュリティ対策"
+            }
+        },
+        "solutions": {
+            "title": "ITソリューション",
+            "description": "ビジネスの課題を解決するための包括的なITソリューションを提供します。",
+            "items": {
+                "cloud": "クラウドソリューション",
+                "ai": "AI・機械学習ソリューション",
+                "data": "データ分析・活用ソリューション"
+            }
+        }
+    },
+    "contact": {
+        "title": "お問い合わせ"
+    }
+}
