@@ -13,8 +13,8 @@ export default function Home() {
         height={200}
         loading="eager"
       />
-      <p className="text-3xl md:text-4xl font-bold mt-4">{t('slogan1')}</p>
-      <p className="text-3xl md:text-4xl font-bold mt-4">{t('slogan2')}</p>
+      <p className="text-2xl md:text-4xl font-bold mt-4">{t('slogan1')}</p>
+      <p className="text-2xl md:text-4xl font-bold mt-4">{t('slogan2')}</p>
     </div>
   );
 }
