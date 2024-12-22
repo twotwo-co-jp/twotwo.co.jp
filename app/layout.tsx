@@ -10,6 +10,7 @@ import { ChangeLanguage } from "@/components/layouts/lang";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "@/public/logo.png";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const notoSansJP = Noto_Sans_JP({
   variable: "--font-noto-sans-jp",
@@ -71,6 +72,7 @@ export default async function RootLayout({
             &copy; 2020 TWOTWO Co.,Ltd.
           </footer>
         </NextIntlClientProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
