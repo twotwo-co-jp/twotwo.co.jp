@@ -1,7 +1,6 @@
 {
     "i18n": {
         "selectLanguage": "Select language"
-        
     },
     "navigation": {
         "menu": "Menu",
@@ -28,7 +27,7 @@
                 "label": "Location",
                 "value": {
                     "postal": "116-0013",
-                    "address": "302 Tsukahara Building, 2-26-6 Nishi-Nippori, Arakawa-ku, Tokyo"
+                    "address": "2-26-6 Nishi-Nippori, Arakawa-ku, Tokyo"
                 }
             },
             "business": {
