@@ -54,11 +54,12 @@ export default function About() {
               {t("companyInfo.access.value")}
             </p>
           </div>
-          {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.8414793987704!2d139.76813317614133!3d35.73011692728636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d58bf71cf6d%3A0x87be0980e52211ae!2z5qCq5byP5Lya56S-VFdPVFdP!5e0!3m2!1sja!2sjp!4v1734423401010!5m2!1sja!2sjp"
-          className="w-full h-80"
-          loading="lazy" 
-          referrerPolicy="no-referrer-when-downgrade">
-          </iframe> */}
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.8414793987704!2d139.76813317614133!3d35.73011692728636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d58bf71cf6d%3A0x87be0980e52211ae!2z5qCq5byP5Lya56S-VFdPVFdP!5e0!3m2!1sja!2sjp!4v1734423401010!5m2!1sja!2sjp"
+            className="w-full h-80"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </section>
     </article>
