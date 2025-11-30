@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { useTranslations } from 'next-intl';
-import { Suspense } from 'react';
+import { useTranslations } from "next-intl";
+import { Suspense } from "react";
 
 // 骨架屏组件
 function LogoSkeleton() {
@@ -10,7 +10,7 @@ function LogoSkeleton() {
 }
 
 export default function Home() {
-  const t = useTranslations('home');
+  const t = useTranslations("home");
 
   return (
     <div className="flex flex-col items-center">
@@ -25,8 +25,8 @@ export default function Home() {
           className="max-w-full h-auto"
         />
       </Suspense>
-      <p className="text-2xl md:text-4xl font-bold mt-4">{t('slogan1')}</p>
-      <p className="text-2xl md:text-4xl font-bold mt-4">{t('slogan2')}</p>
+      <p className="text-2xl md:text-4xl font-bold mt-4">{t("slogan1")}</p>
+      <p className="text-2xl md:text-4xl font-bold mt-4">{t("slogan2")}</p>
     </div>
   );
 }

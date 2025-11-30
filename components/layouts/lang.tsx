@@ -28,7 +28,7 @@ export function ChangeLanguage({ locale }: { locale: string }) {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <div role="button" className="flex items-center gap-2 w-36">
+        <button className="flex items-center gap-2 w-36">
           <ReactCountryFlag
             countryCode={countryCode}
             svg
@@ -36,12 +36,12 @@ export function ChangeLanguage({ locale }: { locale: string }) {
           />
           {localeName}
           <ChevronDown className="w-4 h-4" />
-        </div>
+        </button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56">
         <DropdownMenuLabel>{t("selectLanguage")}</DropdownMenuLabel>
         <DropdownMenuSeparator />
-        <DropdownMenuItem onClick={() => handleLanguageChange("ja")}>
+        <DropdownMenuItem asChild onClick={() => handleLanguageChange("ja")}>
           <div className="flex items-center gap-2">
             <ReactCountryFlag countryCode="JP" svg alt="日本国旗" />
             <span>日本語</span>
