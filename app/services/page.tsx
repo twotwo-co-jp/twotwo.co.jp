@@ -1,6 +1,20 @@
-"use client"
-
+import { Metadata } from "next"
 import { useTranslations } from "next-intl"
+import { getLocale } from "next-intl/server"
+
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
+  const titles = { ja: "サービス", zh: "我们的服务", en: "Our Services" };
+  const descriptions = {
+    ja: "株式会社TWOTWOのサービス一覧です。",
+    zh: "株式会社TWOTWO的服务介绍。",
+    en: "Services offered by TWOTWO Co., Ltd.",
+  };
+  return {
+    title: titles[locale as keyof typeof titles] ?? "サービス",
+    description: descriptions[locale as keyof typeof descriptions] ?? descriptions.ja,
+  };
+}
 
 export default function Services() {
   const t = useTranslations('services')

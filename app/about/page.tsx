@@ -1,10 +1,21 @@
 import { Metadata } from "next";
 import { useTranslations } from "next-intl";
+import { getLocale } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "企業情報",
-  description: "株式会社TWOTWOのホームページです。",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
+  const titles = { ja: "企業情報", zh: "公司概要", en: "About Us" };
+  const descriptions = {
+    ja: "株式会社TWOTWOの会社概要です。",
+    zh: "株式会社TWOTWO公司概要。",
+    en: "Company information for TWOTWO Co., Ltd.",
+  };
+  return {
+    title: titles[locale as keyof typeof titles] ?? "企業情報",
+    description: descriptions[locale as keyof typeof descriptions] ?? descriptions.ja,
+  };
+}
+
 export default function About() {
   const t = useTranslations("about");
 
@@ -55,10 +66,12 @@ export default function About() {
             </p>
           </div>
           <iframe
+            title="Google Maps - 株式会社TWOTWO"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.8414793987704!2d139.76813317614133!3d35.73011692728636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d58bf71cf6d%3A0x87be0980e52211ae!2z5qCq5byP5Lya56S-VFdPVFdP!5e0!3m2!1sja!2sjp!4v1734423401010!5m2!1sja!2sjp"
             className="w-full h-80"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
           ></iframe>
         </div>
       </section>

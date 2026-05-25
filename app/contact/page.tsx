@@ -1,7 +1,21 @@
-"use client"
-
+import { Metadata } from "next"
 import { useTranslations } from "next-intl"
+import { getLocale } from "next-intl/server"
 import { Mail, PhoneCall } from "lucide-react"
+
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
+  const titles = { ja: "お問い合わせ", zh: "联系我们", en: "Contact Us" };
+  const descriptions = {
+    ja: "株式会社TWOTWOへのお問い合わせはこちら。",
+    zh: "联系株式会社TWOTWO。",
+    en: "Contact TWOTWO Co., Ltd.",
+  };
+  return {
+    title: titles[locale as keyof typeof titles] ?? "お問い合わせ",
+    description: descriptions[locale as keyof typeof descriptions] ?? descriptions.ja,
+  };
+}
 
 export default function Contact() {
   const t = useTranslations('contact')

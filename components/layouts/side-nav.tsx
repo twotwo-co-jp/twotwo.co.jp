@@ -8,19 +8,15 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
-
-const navigationItemStyle = "block select-none rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+import { navigationItemStyle } from "@/components/layouts/nav-styles";
+import { NAV_LINKS } from "@/components/layouts/nav-config";
 
 export default function SideNav() {
   const [isOpen, setIsOpen] = useState(false);
   const t = useTranslations('navigation');
   const pathname = usePathname();
 
-  const links = [
-    { href: "/about", label: t('about') },
-    { href: "/services", label: t('services') },
-    { href: "/contact", label: t('contact') }
-  ];
+  const links = NAV_LINKS.map(({ href, key }) => ({ href, label: t(key) }));
 
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>

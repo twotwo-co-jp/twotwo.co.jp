@@ -25,7 +25,7 @@ const notoSansSC = Noto_Sans_SC({
   subsets: ["latin"],
   weight: ["400", "500", "700"],
   display: "swap",
-  preload: true,
+  preload: false,
 });
 
 const notoSans = Noto_Sans({
@@ -33,7 +33,7 @@ const notoSans = Noto_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "700"],
   display: "swap",
-  preload: true,
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -50,9 +50,6 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const locale = await getLocale();
-
-  // Providing all messages to the client
-  // side is the easiest way to get started
   const messages = await getMessages();
 
   const fontClass =
@@ -82,7 +79,7 @@ export default async function RootLayout({
           <main className="flex flex-1 justify-center p-8">{children}</main>
           <Separator />
           <footer className="flex items-center justify-center h-16">
-            &copy; 2020 TWOTWO Co.,Ltd.
+            &copy; {new Date().getFullYear()} TWOTWO Co.,Ltd.
           </footer>
         </NextIntlClientProvider>
         <SpeedInsights />
