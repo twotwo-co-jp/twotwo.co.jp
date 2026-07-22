@@ -1,5 +1,19 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { getLocale } from "next-intl/server";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
+  const descriptions = {
+    ja: "株式会社TWOTWOのホームページです。",
+    zh: "株式会社TWOTWO官方网站。",
+    en: "Official website of TWOTWO Co., Ltd.",
+  };
+  return {
+    description: descriptions[locale as keyof typeof descriptions] ?? descriptions.ja,
+  };
+}
 
 export default function Home() {
   const t = useTranslations("home");
